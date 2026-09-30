@@ -1,0 +1,17 @@
+{
+  "name": "eve-bug-reproduction",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@agent-browser/eve": "0.38.1",
+    "eve": "0.58.1",
+    "zod": "^4.6.5"
+  }
+}
